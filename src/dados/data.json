@@ -1,0 +1,20 @@
+[
+    {
+        "id":1,
+        "desc": "Júlio de Souza Alberti",
+        "imagem":"../../piblic/",
+        "sal":10200.00
+    },
+    {
+        "id":1,
+        "desc": "Maitezinha Ilque",
+        "imagem":"../../piblic/",
+        "sal":45000.00
+    },
+    {
+        "id":1,
+        "desc": "Papai Noel",
+        "imagem":"../../piblic/",
+        "sal":10200.00
+    }
+]
