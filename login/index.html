@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Login</title>
+    <script src="https://code.jquery.com/jquery-4.0.0.js" integrity="sha256-9fsHeVnKBvqh3FB2HYu7g2xseAZ5MlN6Kz/qnkASV8U=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="formulario">
+        <div class="round">
+            <img class="logo" src="/public/clt.webp" alt="">
+        </div>
+
+        <div class="wrap-input-label">
+            <label for=""></label>
+            <input type="text" id="nome" placeholder="Insira seu nome">
+        </div>
+        <div class="wrap-input-label">
+            <label for=""></label>
+            <input type="password" id="password" placeholder="Insira sua senha">
+        </div onclick="showPassword()">
+            <img src="/public/closed-eyes.png" alt="senha" id="eye" class="eye" width="25px">
+        </div>
+        <button class="btn-login" onclick="login()">Login</button>
+    </div>
+    <div>
+        <div class="error-div" id="error-modal">
+            <h3>Credenciais incorretas</h3>
+            <button onclick="fecharError()">❌</button>
+    </div>
+    
+
+<script src="script.js"></script>
+</body>
+</html>
