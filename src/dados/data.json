@@ -6,19 +6,19 @@
         "sal":10200.00
     },
     {
-        "id":1,
+        "id":2,
         "desc": "Scout",
         "imagem":"/public/scout.jpg",
         "sal":45000.00
     },
     {
-        "id":1,
+        "id":3,
         "desc": "Engineer",
         "imagem":"/public/engineer.jpg",
         "sal":10200.00
     },
     {
-        "id":1,
+        "id":4,
         "desc": "Gunner",
         "imagem":"/public/gunner.jpg",
         "sal":10200.00
