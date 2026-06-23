@@ -2,25 +2,25 @@
     {
         "id":1,
         "desc": "Driller",
-        "imagem":"/local_market/public/driller.jpg",
+        "imagem":"/public/driller.jpg",
         "sal":10200.00
     },
     {
         "id":1,
         "desc": "Scout",
-        "imagem":"/local_market/public/scout.jpg",
+        "imagem":"/public/scout.jpg",
         "sal":45000.00
     },
     {
         "id":1,
         "desc": "Engineer",
-        "imagem":"/local_market/public/engineer.jpg",
+        "imagem":"/public/engineer.jpg",
         "sal":10200.00
     },
     {
         "id":1,
         "desc": "Gunner",
-        "imagem":"/local_market/public/gunner.jpg",
+        "imagem":"/public/gunner.jpg",
         "sal":10200.00
     }
 ]
