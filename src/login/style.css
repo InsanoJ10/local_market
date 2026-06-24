@@ -31,7 +31,7 @@ input:focus{
 }
 .container{
     position: relative;
-    background-color: rgb(54, 42, 0);
+    background-color: rgb(145, 113, 0);
     width: 300px;
     height: 350;
     border: 2px solid white;
@@ -60,7 +60,7 @@ input:focus{
     top: -15%;
     left: 50%;
     transform: translate(-50%,-50%);
-    box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px;
+    box-shadow: rgb(0, 0, 0) 0px 5px 15px;
 }
 .wrap-input-label{
     display: flex;
@@ -129,8 +129,13 @@ input:focus{
     font-weight: lighter;
     box-shadow:rgba(0, 0, 0, 0.8) 0px 5px 15px ;
 }
-.error-div button{
+.error-div:button{
     background-color: transparent;
     border: none;
     opacity: 0.7;
+    transition: all 200ms linear;
+}
+.error-div:button:hover{
+    cursor: pointer;
+    opacity: 1;
 }

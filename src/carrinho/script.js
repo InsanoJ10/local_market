@@ -1,6 +1,6 @@
 $(document).ready(function() {
     //recupera carrinho do localstorage
-    const carrinho = JSON.parse(localStorage.getItem("arrinho")) || []
+    const carrinho = JSON.parse(localStorage.getItem("carrinho")) || []
     const listaElement = $("#lista")
     const totalElement = $("#total")
     function exibircarrinho(){
@@ -16,7 +16,7 @@ $(document).ready(function() {
                 
                })
                 listaItem.append(removeButton)
-                listaElement.append(listItem)
+                listaElement.append(listaItem)
 
                 totalPreco += item.preco
         })
@@ -32,7 +32,7 @@ $(document).ready(function() {
 })
 function gerar(){const listaElement = document.getElementById("lista")
     const totalElement = document.getElementById("total")
-    const listaClone = listaElemente.cloneNode(true)
+    const listaClone = listaElement.cloneNode(true)
     $(listaClone).find("button").remove()
     const listaHtml = listaClone.innerHTML
     const totalhTML = totalElement.innerHTML
