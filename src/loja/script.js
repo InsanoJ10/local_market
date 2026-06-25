@@ -22,7 +22,7 @@ window.onload = function(){
 
 
 document.addEventListener("DOMContentLoaded", function() {
-    fetch("../dados/data.json")
+    fetch("/src/dados/data.json")
     .then((response) => response.json())
     .then((data) => {
         produtos = data
@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", function() {
                         <img src="${produto.imagem}" class="card-img-top" alt="${produto.desc}">
                         <div class="card-body">
                             <h5 class="card-title">${produto.desc}</h5>
-                            <p class="card-text">$${produto.valor.toFixed(2)}</p>
+                            <p class="card-text">R$${produto.sal.toFixed(2)}</p>
                             <a href="#" class="btn btn-primary adicionar" data-indice="${index}">
                                 Adicionar ao carrinho
                             </a>

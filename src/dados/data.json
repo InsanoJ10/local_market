@@ -3,24 +3,24 @@
         "id":1,
         "desc": "Driller",
         "imagem":"/public/driller.jpg",
-        "sal":10200.00
+        "sal":1000.00
     },
     {
         "id":2,
         "desc": "Scout",
         "imagem":"/public/scout.jpg",
-        "sal":45000.00
+        "sal":450.00
     },
     {
         "id":3,
         "desc": "Engineer",
         "imagem":"/public/engineer.jpg",
-        "sal":10200.00
+        "sal":5000.00
     },
     {
         "id":4,
         "desc": "Gunner",
         "imagem":"/public/gunner.jpg",
-        "sal":10200.00
+        "sal":4000.00
     }
 ]
