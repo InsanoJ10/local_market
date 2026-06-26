@@ -10,16 +10,14 @@ body{
     overflow-x: hidden;
     padding: 20px;
 }
-h1{
-    color: black;
-}
 .wrap{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 100px;
+    height: 200px;
+    min-height: 100px;
     padding: 5%;
 }
 .center{

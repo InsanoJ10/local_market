@@ -9,7 +9,7 @@ $(document).ready(function(){
         let totalPreco = 0
         $.each(carrinho, function(index, item){
             const listItem = $("<li>").text(`${item.desc} - Preço: $${item.sal.toFixed(2)}`)
-            const removeButton = $("button").text("✖️").css("margin-left", "10px").click(function(){
+            const removeButton = $("<button>").text("✖️").css("margin-left", "10px").click(function(){
                 removerItem(index)
             })
             listItem.append(removeButton)

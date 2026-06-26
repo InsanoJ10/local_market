@@ -1,26 +1,152 @@
 [
     {
-        "id":1,
-        "desc": "Driller",
-        "imagem":"/public/driller.jpg",
-        "sal":1000.00
+        "id": 1,
+        "desc": "Fiat Uno",
+        "imagem": "/public/uno.jpg",
+        "sal": 52000.00
     },
     {
-        "id":2,
-        "desc": "Scout",
-        "imagem":"/public/scout.jpg",
-        "sal":450.00
+        "id": 2,
+        "desc": "Fiat Mobi",
+        "imagem": "/public/mobi.jpg",
+        "sal": 68000.00
     },
     {
-        "id":3,
-        "desc": "Engineer",
-        "imagem":"/public/engineer.jpg",
-        "sal":5000.00
+        "id": 3,
+        "desc": "Fiat Argo",
+        "imagem": "/public/fiat-argo.jpg",
+        "sal": 89000.00
     },
     {
-        "id":4,
-        "desc": "Gunner",
-        "imagem":"/public/gunner.jpg",
-        "sal":4000.00
+        "id": 4,
+        "desc": "Fiat Cronos",
+        "imagem": "/public/fiat-cronos.jpg",
+        "sal": 97000.00
+    },
+    {
+        "id": 5,
+        "desc": "Fiat Pulse",
+        "imagem": "/public/fiat-pulse.jpg",
+        "sal": 115000.00
+    },
+    {
+        "id": 6,
+        "desc": "Fiat Fastback",
+        "imagem": "/public/fiat-fastback.jpg",
+        "sal": 130000.00
+    },
+    {
+        "id": 7,
+        "desc": "Fiat Strada",
+        "imagem": "/public/fiat-strada.jpg",
+        "sal": 105000.00
+    },
+    {
+        "id": 8,
+        "desc": "Fiat Toro",
+        "imagem": "/public/fiat-toro.jpg",
+        "sal": 160000.00
+    },
+    {
+        "id": 9,
+        "desc": "Fiat Ducato",
+        "imagem": "/public/fiat-ducato.jpg",
+        "sal": 210000.00
+    },
+    {
+        "id": 10,
+        "desc": "Fiat Doblo",
+        "imagem": "/public/fiat-doblo.jpg",
+        "sal": 125000.00
+    },
+    {
+        "id": 11,
+        "desc": "Fiat Fiorino",
+        "imagem": "/public/fiat-fiorino.jpg",
+        "sal": 88000.00
+    },
+    {
+        "id": 12,
+        "desc": "Fiat Palio",
+        "imagem": "/public/fiat-palio.jpg",
+        "sal": 45000.00
+    },
+    {
+        "id": 13,
+        "desc": "Fiat Siena",
+        "imagem": "/public/fiat-siena.jpg",
+        "sal": 48000.00
+    },
+    {
+        "id": 14,
+        "desc": "Fiat Bravo",
+        "imagem": "/public/fiat-bravo.jpg",
+        "sal": 55000.00
+    },
+    {
+        "id": 15,
+        "desc": "Fiat Linea",
+        "imagem": "/public/fiat-linea.jpg",
+        "sal": 50000.00
+    },
+    {
+        "id": 16,
+        "desc": "Fiat Grande Punto",
+        "imagem": "/public/fiat-grande-punto.jpg",
+        "sal": 42000.00
+    },
+    {
+        "id": 17,
+        "desc": "Fiat 500",
+        "imagem": "/public/fiat-500.jpg",
+        "sal": 175000.00
+    },
+    {
+        "id": 18,
+        "desc": "Fiat 500e",
+        "imagem": "/public/fiat-500e.jpg",
+        "sal": 280000.00
+    },
+    {
+        "id": 19,
+        "desc": "Fiat Tipo",
+        "imagem": "/public/fiat-tipo.jpg",
+        "sal": 95000.00
+    },
+    {
+        "id": 20,
+        "desc": "Fiat Egea",
+        "imagem": "/public/fiat-egea.jpg",
+        "sal": 99000.00
+    },
+    {
+        "id": 21,
+        "desc": "Fiat Fullback",
+        "imagem": "/public/fiat-fullback.jpg",
+        "sal": 185000.00
+    },
+    {
+        "id": 22,
+        "desc": "Fiat Panda",
+        "imagem": "/public/fiat-panda.jpg",
+        "sal": 72000.00
+    },
+    {
+        "id": 23,
+        "desc": "Fiat Qubo",
+        "imagem": "/public/fiat-qubo.jpg",
+        "sal": 83000.00
+    },
+    {
+        "id": 24,
+        "desc": "Fiat Multipla",
+        "imagem": "/public/fiat-multipla.jpg",
+        "sal": 40000.00
+    },
+    {
+        "id": 25,
+        "desc": "Fiat Talento",
+        "imagem": "/public/fiat-talento.jpg",
+        "sal": 195000.00
     }
 ]

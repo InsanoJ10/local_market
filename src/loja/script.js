@@ -47,7 +47,7 @@ document.addEventListener("DOMContentLoaded", function() {
             produtosContainer.appendChild(card)
             
         });
-    }).catch
+    }).catch((error) => console.error(error))
 
 })
 
