@@ -4,9 +4,16 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
-
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
 
 #pedido{
+    top: 95%;
     display: none;
     position: absolute;
     bottom: auto;
@@ -15,9 +22,10 @@
     padding: 20px;
     background-color: green;
     font-size: 22px;
-    width: 380px;
-    border: 3px solid black;
-    border-radius: 50%;
+    width: 400px;
+    border: 2px solid silver;
+    border-radius: 20%;
+    text-align: center;
 }
 .btn-word{
     border: none;
@@ -25,10 +33,66 @@
     position: fixed;
     top: 10px;
     right: 10px;
-    background-color: blue;
+    opacity: 0.6;
+    transition: all 200ms linear;
+    background-color: green;
     color: rgb(255, 255, 255);
+    border-radius: 10px;
 }
 .btn-word:hover{
     cursor: pointer;
-    opacity: 0.6;
+    opacity: 1;
+    color: green;
+    background-color:silver;
+}
+.header{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding: 10px 30px;
+    box-shadow: 0px 3px 12px black;
+    gap: 20px;
+    width: 100%;
+}
+.header a{
+    text-decoration: none;
+    color: silver;
+    background-color: rgb(255, 30, 30);
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    opacity: 0.7;
+    transition: all 200ms linear;
+}
+.header a:hover{
+    opacity: 1;
+    background-color: silver;
+    color: red;
+}
+.list{
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0px 3px 12px silver;
+    color: silver;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 10vh;
+    padding: 20px;
+    border-radius: 10px;
+    gap: 20px;
+}
+li{
+    display: flex;
+    justify-content: space-between;
+}
+@media (width < 1000px){
+    .list{
+        width: 80%;
+    }
+    .btn-word{
+        top: 95%;
+    }
 }
