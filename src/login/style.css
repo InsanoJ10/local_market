@@ -29,7 +29,7 @@ input:focus{
 .container{
     position: relative;
     background-color: silver;
-    width: 300px;
+    width: 250px;
     height: 350;
     border: 2px solid white;
     display: flex;
